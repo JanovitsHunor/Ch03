@@ -37,12 +37,12 @@ int main(){
 	
 	int age;
 	
-		cout<<"Please enter the age of the recipient.\n";
+		cout << "Please enter the age of the recipient.\n";
 	
 	cin >> age;
 	
 	
-	string simple_error = ("you're kidding");
+	string simple_error = ("You're kidding!");
 	
 		if (age <= 0)
 			cout << simple_error;
@@ -67,7 +67,7 @@ int main(){
 		
 		cout << "I hope you are enjoying retirement.\n";
 	
-		cout << "\nYours sincerely,\n\nAnna\n";
+		cout << "\nYours sincerely,\n\nHunor\n";
 	
 	
 	return 0;
